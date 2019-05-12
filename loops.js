@@ -1,9 +1,9 @@
 function forLoop(arr) {
-  for(let r=0; r<25; r++) {
-    if(r===1) {
-      arr[r] = "I am 1 strange loop."
+  for(let i=0; i<25; i++) {
+    if(i===1) {
+      arr.push("I am 1 strange loop.");
     } else {
-      arr[r] = `I am ${r} strange loops.`;
+      arr.push(`I am ${i} strange loops.`);
     }
   }
 }
